@@ -1,0 +1,347 @@
+<html>
+    <head>
+        <title>Restaurant Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="top">
+            <div class="logo">FreshBite</div>
+            <div class="nav">
+                <a href="#">Home</a>
+                <a href="restaurant.html">Restaurant</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a href="signin.php">Sign in</a>
+                <a href="logout.php">Logout</a>
+            </div>
+            
+            <div class="search">
+                <i class="fa-solid fa-search"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="heading">
+            <div class="left">
+                <p>Are You Hungry?</p>
+                <h1>Don't Wait</h1>
+                <p>Let start to order food now</p>
+
+                
+                
+                <a
+                  href="restaurant.html"
+                  target="blank"
+                  ><button> Restaurant</button></a
+                >
+
+
+            </div>
+
+            <div class="right" id="food"></div>
+
+            <div class="SocialMedia">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="menu">
+                <div id="food1"></div>
+                <div id="food2"></div>
+            </div>
+        </div>
+         
+
+          <!---------------------------- Popular Restaurant ------------------- -->
+         <section class="section">
+          <div class="container">
+            <div class="dishes__section-top">
+              <h2>Popular Restaurant</h2>
+            </div>
+  
+            <div class="dishes__wrapper">
+              <div class="dish__item">
+                <div class="dish__img">
+                  <img src="./images/dishes-01.png" alt="" />
+                </div>
+  
+                <div class="dish__content">
+                  <h3>Restaurant 1</h3>
+                  <div class="ratings">
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-half-s-line"></i></span>
+                  </div>
+  
+                  <div class="dish__content-bottom">
+                    <span class="dish__price"> &#x20b9;850 for Two</span>
+                    <span class="add__to-cart"
+                      ><i class="ri-shopping-cart-line"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="dish__item">
+                <div class="dish__img">
+                  <img src="./images/dishes-02.png" alt="" />
+                </div>
+  
+                <div class="dish__content">
+                  <h3>Restaurant 2</h3>
+                  <div class="ratings">
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-half-s-line"></i></span>
+                  </div>
+  
+                  <div class="dish__content-bottom">
+                    <span class="dish__price">&#x20b9;700 for Two</span>
+                    <span class="add__to-cart"
+                      ><i class="ri-shopping-cart-line"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="dish__item">
+                <div class="dish__img">
+                  <img src="./images/dishes-03.png" alt="" />
+                </div>
+  
+                <div class="dish__content">
+                  <h3>Restaurant 3</h3>
+                  <div class="ratings">
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-s-fill"></i></span>
+                    <span><i class="ri-star-half-s-line"></i></span>
+                  </div>
+  
+                  <div class="dish__content-bottom">
+                    <span class="dish__price">&#x20b9;980 for Two</span>
+                    <span class="add__to-cart"
+                      ><i class="ri-shopping-cart-line"></i
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+              <br> 
+
+         <!---------------------------- contact ------------------- -->
+        <div class="contact" id="contact">
+          <h1>CONTACT US</h1>
+          <br />
+          <div class="contactcontanner">
+            <div class="contanner">
+              <div class="heading">
+                <div class="icon"><i class="far fa-map"></i></div>
+                <div class="info">
+                  <p>Address :</p>
+                  <p id="contactinfo">
+                    XYZ 1234,Nashik
+                  </p>
+                </div>
+              </div>
+    
+              <div class="heading">
+                <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="info">
+                  <p>Phone :</p>
+                  <p id="contactinfo">+91 9000010000</p>
+                </div>
+              </div>
+    
+              <div class="heading">
+                <div class="icon"><i class="far fa-envelope"></i></div>
+                <div class="info">
+                  <p>Email :</p>
+                  <p id="contactinfo">xyz1122@gmail.com</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="messageform">
+              <div class="form">
+                <form action="" method="POST">
+                  <style>
+                    ::placeholder {
+                      color: rgba(255, 255, 255, 0.7);
+                    }
+                  </style>
+    
+                  <input type="text" name="name" placeholder="NAME" required />
+                  <input type="email" name="email" placeholder="EMAIL" required />
+                  <input
+                    type="text"
+                    name="subject"
+                    placeholder="SUBJECT"
+                    required
+                  />
+                  <textarea
+                    type="message"
+                    name="message"
+                    id="inputbox"
+                    cols="30"
+                    rows="5"
+                    placeholder="MESSAGE"
+                    required
+                  ></textarea>
+                  <button type="submit">SEND MESSAGE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="form.js"></script>
+        <br>
+<!-- =========== About  ============ -->
+        <div class="about" id="about">
+        <section class="section" id="about">
+          <div class="container">
+            <div class="about__wrapper">
+              <div class="about__img">
+                <img src="./images/burger.png" alt="" />
+              </div>
+  
+              <div class="about__content">
+                <h3>
+                  We pride ourselves on making great food from the best
+                  ingredients.
+                </h3>
+                <p>
+                  About us 
+                </p>
+  
+                <button class="learn__more"><a href="#">Learn more</a></button>
+              </div>
+            </div>
+          </div>
+        </section>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+<!-- =========== footer start ============ -->
+        <footer class="section footer">
+          <div class="container">
+            <div class="footer__wrapper">
+              <div class="footer__logo">
+                <div class="logo">
+                  <h1>Fresh<span class="highlight">Bite</span></h1>
+                </div>
+                <p>Subscribe to get Messages</p>
+                <div class="subscribe__box">
+                  <input type="email" placeholder="Your email" />
+                  <button class="subscribe__btn">Subscribe</button>
+                </div>
+              </div>
+    
+              <div class="footer__box">
+                <h3 class="footer__link-title">Information</h3>
+                <ul class="footer__menu">
+                  <li class="footer__menu-item">
+                    <a href="#about" class="footer__link">About Us</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Events</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Career</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Our Chefs</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="footer__box">
+                <h3 class="footer__link-title">Services</h3>
+                <ul class="footer__menu">
+                  <li class="footer__menu-item">
+                    <a href="#about" class="footer__link">Online Order</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">24/7 Support</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Pre-Reservation</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Foodie Place</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="footer__box">
+                <h3 class="footer__link-title">Quick Links</h3>
+                <ul class="footer__menu">
+                  <li class="footer__menu-item">
+                    <a href="#menu" class="footer__link">Restaurant</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#blog" class="footer__link">Blog</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#about" class="footer__link">About Us</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Offer</a>
+                  </li>
+                </ul>
+              </div>
+    
+              <div class="footer__box">
+                <h3 class="footer__link-title">Social</h3>
+                <ul class="footer__menu">
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Facebook</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Instagram</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Linkedin</a>
+                  </li>
+                  <li class="footer__menu-item">
+                    <a href="#" class="footer__link">Twitter</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+    
+            <p class="footer__copyright">
+              @2024 All rights reserved  KK.
+            </p>
+          </div>
+        </footer>
+    </body>
+</html>
+
